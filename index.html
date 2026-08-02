@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I am Mice</title>
+   
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/wolf.png">
+  <link rel="apple-touch-icon" href="assets/wolf.png">
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="fixed-top navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-dark container-xl px-3 px-md-4" id="mainNavbar">
+      
+      <a class="navbar-brand d-flex align-items-center gap-2 font-mono fs-6 fw-bold" href="#home">
+        <img class="wolf-icon rounded-circle" src="assets/wolf.png" alt="Logo" width="40" height="40">
+        <span class="logo-name">Mice</span><span class="De">De</span>
+      </a>
+
+      <div class="dark-light-mode"></div>
+
+      <button class="navbar-toggler rounded-0 border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list-nested text-white fs-3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse p-3" id="navbarNav">
+        <button class="close-btn" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Close">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <ul class="navbar-nav gap-1 gap-lg-3 mt-3 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-2 py-1" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 py-1" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 py-1" href="#portfolio">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 py-1" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 py-1" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center">
+    <div class="container-xl px-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          
+          <p class="hero-subheading font-mono mb-2">HELLO I'M</p>
+  
+          <h1 class="hero-title fw-bold text-white mb-3">Benedick Hamor</h1>
+  
+          <p class="hero-tagline fs-4 mb-4">
+            Aspiring <span class="typewriter-text text-accent"></span><span class="cursor">&nbsp;</span>
+          </p>
+  
+          <div class="mb-5">
+            <a href="#contact" class="btn btn-hero-cta px-4 py-2">SAY HELLO</a>
+          </div>
+  
+          <div class="hero-img-wrapper position-relative mx-auto">
+            <div class="hero-circle-bg"></div>
+            <img src="assets/Benedick 100.png" alt="Benedick Hamor" class="img-fluid hero-avatar position-relative">
+          </div>
+          <div class="social-sidebar d-md-flex">
+            <a href="https://www.facebook.com/share/19K2pGtupf/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://youtube.com/@hm.de617?si=xPbm6GaiAjroiCWQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/benedick-hamor-519367415?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/MiceDe27/MiceDe" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="soft" class="soft-section py-5">
+    <div class="row justify-content-center g-4">
+      <div class="col-6 col-md-4">
+        <div class="skill-card">
+          <i class="bi bi-fire skill-icon"></i>
+          <h4 class="skill-name">Work Hard</h4>
+          <p class="skill-def">Committed to putting in full effort and diligence in every task.</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="skill-card">
+          <i class="bi bi-award skill-icon"></i>
+          <h4 class="skill-name">Dedicated</h4>
+          <p class="skill-def">Focused and committed to achieving goals and seeing tasks through.</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="skill-card">
+          <i class="bi bi-mortarboard skill-icon"></i>
+          <h4 class="skill-name">Willing to Learn</h4>
+          <p class="skill-def">Open-minded and eager to gain new knowledge and continuously improve.</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="skill-card">
+          <i class="bi bi-people skill-icon"></i>
+          <h4 class="skill-name">Teamwork</h4>
+          <p class="skill-def">Able to collaborate effectively with others to achieve a common goal.</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="skill-card">
+          <i class="bi bi-arrow-repeat skill-icon"></i>
+          <h4 class="skill-name">Adaptability</h4>
+          <p class="skill-def">Able to adjust quickly to new situations or changes.</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="skill-card">
+          <i class="bi bi-clock-history skill-icon"></i>
+          <h4 class="skill-name">Time Management</h4>
+          <p class="skill-def">Skilled at planning and prioritizing tasks within the right timeframe.</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="skill-card">
+          <i class="bi bi-lightbulb skill-icon"></i>
+          <h4 class="skill-name">Problem Solving</h4>
+          <p class="skill-def">Able to analyze issues and find effective solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="raw justify-content-center align-items-center mb-5 g-4 p-3">
+    <div class="hero-img-wrapper position-relative mx-auto">
+      <div class="hero-circle-bg"></div>
+      
+      <div class="deco-square-outline"></div>
+      <div class="deco-square-fill deco-fill-left"></div>
+      <div class="deco-square-fill deco-fill-bottom"></div>
+      <div class="deco-dots">
+        <span></span><span></span><span></span>
+      </div>
+    
+      <img src="assets/Benedick 101.png" alt="Benedick Hamor" class="img-fluid hero-avatar position-relative">
+    </div>
+    <div class="col-lg-6">
+      <p class="hero-subheading font-mono mb-2">ABOUT ME</p>
+      <h2 class="about-title fw-bold text-white mb-3">Benedick Hamor</h2>
+      <p class="about-text">
+        A Bachelor of Science in Computer Science graduate from Sorsogon State University – Bulan Campus. Eager to begin my professional career where I can apply my knowledge, develop new skills, and contribute to an organization's success. Hardworking and adaptable, with a positive attitude and strong willingness to learn — comfortable working both independently and as part of a team. Aspiring Full-Stack Developer, Web Developer, Software Engineer, and System Developer.
+      </p>
+    </div>
+    <div class="col-lg-5">
+      <div class="info-list-grid">
+        <div class="info-item">
+          <span class="info-label">Name</span>
+          <span class="info-value">Benedick Hamor</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Phone</span>
+          <span class="info-value">+63 945 139 5332</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Age</span>
+          <span class="info-value">27 Years</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Email</span>
+          <span class="info-value">benedick.hamor@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Occupation</span>
+          <span class="info-value">Aspiring Software Engineer</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Nationality</span>
+          <span class="info-value">Filipino</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="marquee-section py-4">
+    <div class="marquee-row">
+      <div class="marquee-track marquee-left">
+        <span>FROM SORSOGON &nbsp;*&nbsp; ASPIRING SOFTWARE ENGINEER &nbsp;*&nbsp; </span>
+        <span>FROM SORSOGON &nbsp;*&nbsp; ASPIRING SOFTWARE ENGINEER &nbsp;*&nbsp; </span>
+      </div>
+    </div>
+    <div class="marquee-row">
+      <div class="marquee-track marquee-right">
+        <span>NEW PROJECTS &nbsp;*&nbsp; LET'S WORK TOGETHER &nbsp;*&nbsp; </span>
+        <span>NEW PROJECTS &nbsp;*&nbsp; LET'S WORK TOGETHER &nbsp;*&nbsp; </span>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio-section py-5">
+    <div class="container-xl px-4">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-8">
+          <p class="hero-subheading font-mono mb-2">PORTFOLIO</p>
+          <h2 class="about-title fw-bold text-white mb-3">My Recent Works/Projects</h2>
+        </div>
+      </div>
+  
+      <div class="portfolio-list">
+        <div class="portfolio-item">
+          <div>
+            <span class="portfolio-category">MOBILE APP</span>
+            <h3 class="portfolio-title">Account Management System</h3>
+          </div>
+          <button class="portfolio-plus" data-bs-toggle="modal" data-bs-target="#modal-ams" aria-label="View details">
+            <i class="bi bi-plus-lg"></i>
+          </button>
+        </div>
+  
+        <div class="portfolio-item">
+          <div>
+            <span class="portfolio-category">WEB DEVELOPMENT</span>
+            <h3 class="portfolio-title">Inventory Management System</h3>
+          </div>
+          <button class="portfolio-plus" data-bs-toggle="modal" data-bs-target="#modal-ims" aria-label="View details">
+            <i class="bi bi-plus-lg"></i>
+          </button>
+        </div>
+  
+        <div class="portfolio-item">
+          <div>
+            <span class="portfolio-category">WEB DESIGN</span>
+            <h3 class="portfolio-title">Personal Portfolio Website</h3>
+          </div>
+          <button class="portfolio-plus" data-bs-toggle="modal" data-bs-target="#modal-portfolio" aria-label="View details">
+            <i class="bi bi-plus-lg"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="education" class="education-section py-5">
+    <div class="container-xl px-4">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-8">
+          <p class="hero-subheading font-mono mb-2">EDUCATION</p>
+          <h2 class="about-title fw-bold text-white mb-3">My Education</h2>
+        </div>
+      </div>
+  
+      <div class="education-list">
+        <div class="education-item">
+          <div class="education-icon"><i class="bi bi-mortarboard"></i></div>
+          <div class="education-content">
+            <h3 class="education-degree">Bachelor of Science in Computer Science</h3>
+            <span class="education-school">Sorsogon State University – Bulan Campus <span class="education-years">( 2020 - 2024 )</span></span>
+            <p class="education-desc">Graduated with a strong foundation in software development, systems design, and problem-solving.</p>
+          </div>
+        </div>
+  
+        <div class="education-item">
+          <div class="education-icon"><i class="bi bi-mortarboard"></i></div>
+          <div class="education-content">
+            <h3 class="education-degree">Senior High School</h3>
+            <span class="education-school">Bulan National High School <span class="education-years">( 2020 - 2022 )</span></span>
+            <p class="education-desc">Brief description here.</p>
+          </div>
+        </div>
+          <div class="education-img-wrapper position-relative mx-auto mt-5">
+            <div class="hero-circle-bg"></div>
+          
+            <div class="deco-square-outline"></div>
+            <div class="deco-square-fill deco-fill-left"></div>
+            <div class="deco-square-fill deco-fill-bottom"></div>
+          
+            <img src="assets/Education.png" alt="Education" class="img-fluid education-img position-relative">
+          </div>
+      </div>
+    </div>
+  </section>
+    <section class="marquee-section py-4">
+    <div class="marquee-row">
+      <div class="marquee-track marquee-left">
+        <span>FROM SORSOGON &nbsp;*&nbsp; ASPIRING SOFTWARE ENGINEER &nbsp;*&nbsp; </span>
+        <span>FROM SORSOGON &nbsp;*&nbsp; ASPIRING SOFTWARE ENGINEER &nbsp;*&nbsp; </span>
+      </div>
+    </div>
+    <div class="marquee-row">
+      <div class="marquee-track marquee-right">
+        <span>NEW PROJECTS &nbsp;*&nbsp; LET'S WORK TOGETHER &nbsp;*&nbsp; </span>
+        <span>NEW PROJECTS &nbsp;*&nbsp; LET'S WORK TOGETHER &nbsp;*&nbsp; </span>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="techstack-section py-5">
+    <div class="container-xl px-4">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-8">
+          <p class="hero-subheading font-mono mb-2">TECH STACK</p>
+          <h2 class="about-title fw-bold text-white mb-3">Tools & Technologies</h2>
+        </div>
+      </div>
+  
+      <div class="row justify-content-center g-3">
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-send tech-icon"></i>
+            <h5 class="tech-name">Postman API Platform</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-database tech-icon"></i>
+            <h5 class="tech-name">MongoDB Atlas</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-bug tech-icon"></i>
+            <h5 class="tech-name">API Testing</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-bootstrap tech-icon"></i>
+            <h5 class="tech-name">Bootstrap Framework</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-diagram-3 tech-icon"></i>
+            <h5 class="tech-name">Model-View-Controller (MVC)</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-cloud tech-icon"></i>
+            <h5 class="tech-name">Cloud Firestore</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-hexagon tech-icon"></i>
+            <h5 class="tech-name">Node.js</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-filetype-html tech-icon"></i>
+            <h5 class="tech-name">HTML</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-filetype-css tech-icon"></i>
+            <h5 class="tech-name">CSS</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-filetype-js tech-icon"></i>
+            <h5 class="tech-name">JavaScript</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-git tech-icon"></i>
+            <h5 class="tech-name">Git</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-github tech-icon"></i>
+            <h5 class="tech-name">GitHub</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-lightning tech-icon"></i>
+            <h5 class="tech-name">Express.js</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-globe2 tech-icon"></i>
+            <h5 class="tech-name">REST API</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-braces tech-icon"></i>
+            <h5 class="tech-name">JSON</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="tech-card">
+            <i class="bi bi-phone tech-icon"></i>
+            <h5 class="tech-name">Responsive Web Design</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact-section py-5">
+    <div class="container-xl px-4">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-8">
+          <p class="hero-subheading font-mono mb-2">CONTACT ME</p>
+          <h2 class="about-title fw-bold text-white mb-3">Let's Start A New Project</h2>
+        </div>
+      </div>
+  
+      <div class="row justify-content-center text-center mb-5 g-4">
+        <div class="col-6 col-md-4">
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="bi bi-geo-alt"></i></div>
+            <h5 class="contact-label">Location</h5>
+            <p class="contact-value">Sorsogon, Philippines</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="bi bi-telephone"></i></div>
+            <h5 class="contact-label">Phone</h5>
+            <p class="contact-value">+63 945 139 5332</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="bi bi-envelope"></i></div>
+            <h5 class="contact-label">Email</h5>
+            <p class="contact-value">benedick.hamor@gmail.com</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form id="contactForm" class="contact-form">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" id="name" class="form-control contact-input" placeholder="Your Full Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" id="email" class="form-control contact-input" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="row g-3 mt-1">
+              <div class="col-md-6">
+                <input type="tel" id="phone" class="form-control contact-input" placeholder="Your Phone Number" required>
+              </div>
+              <div class="col-md-6">
+                <input type="text" id="subject" class="form-control contact-input" placeholder="Subject (optional)">
+              </div>
+            </div>
+            <div class="row g-3 mt-1">
+              <div class="col-12">
+                <textarea id="message" rows="5" class="form-control contact-input" placeholder="Start writing message here" required></textarea>
+              </div>
+            </div>
+            <div class="mt-4">
+              <button type="submit" id="submitBtn" class="btn btn-hero-cta px-4 py-2">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+      <section class="marquee-section py-4">
+    <div class="marquee-row">
+      <div class="marquee-track marquee-left">
+        <span>FROM SORSOGON &nbsp;*&nbsp; ASPIRING SOFTWARE ENGINEER &nbsp;*&nbsp; </span>
+        <span>FROM SORSOGON &nbsp;*&nbsp; ASPIRING SOFTWARE ENGINEER &nbsp;*&nbsp; </span>
+      </div>
+    </div>
+    <div class="marquee-row">
+      <div class="marquee-track marquee-right">
+        <span>NEW PROJECTS &nbsp;*&nbsp; LET'S WORK TOGETHER &nbsp;*&nbsp; </span>
+        <span>NEW PROJECTS &nbsp;*&nbsp; LET'S WORK TOGETHER &nbsp;*&nbsp; </span>
+      </div>
+    </div>
+  </section>
+  
+  
+  <div class="modal fade portfolio-modal" id="modal-ams" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h3 class="modal-project-title">Account Management System (AMS)</h3>
+          <p class="modal-project-desc">A secure, multi-tenant credential and contact vault app built for seamless, protected, and fast record management. Data is secured through AES-256-CBC encryption, with Firebase-backed authentication and idempotency guards to prevent duplicate database mutations.</p>
+          <div class="modal-info-box">
+            <div class="modal-info-row"><span>Project Type</span><span>Mobile Application</span></div>
+            <div class="modal-info-row"><span>Task</span><span>Full-Stack Development, UI/UX</span></div>
+            <div class="modal-info-row"><span>Tech Stack</span><span>React.js, Node.js, Firebase, MongoDB Atlas</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade portfolio-modal" id="modal-ims" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h3 class="modal-project-title">Inventory Management System</h3>
+          <p class="modal-project-desc">A web-based inventory management system for tracking products, suppliers, and orders in real time — with product catalog, SKU tracking, stock levels, and an admin panel for adding and managing records.</p>
+          <div class="modal-info-box">
+            <div class="modal-info-row"><span>Project Type</span><span>Web Application</span></div>
+            <div class="modal-info-row"><span>Task</span><span>Full-Stack Development</span></div>
+            <div class="modal-info-row"><span>Tech Stack</span><span>HTML, CSS, JavaScript</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade portfolio-modal" id="modal-portfolio" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h3 class="modal-project-title">Personal Portfolio Website</h3>
+          <p class="modal-project-desc">This very site — a personal developer portfolio built to showcase skills, soft skills, and projects, with a dark, modern theme and smooth animations.</p>
+          <div class="modal-info-box">
+            <div class="modal-info-row"><span>Project Type</span><span>Personal Website</span></div>
+            <div class="modal-info-row"><span>Task</span><span>UI/UX, Frontend Development</span></div>
+            <div class="modal-info-row"><span>Tech Stack</span><span>HTML, CSS,JavaScript, Bootstrap 5.3.3</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+  <footer class="site-footer py-5">
+    <div class="container-xl px-4">
+      <div class="row align-items-center gy-4">
+        
+        <div class="col-md-4">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <img class="wolf-icon rounded-circle" src="assets/wolf.png" alt="Logo" width="32" height="32">
+            <span class="footer-logo">Mice<span class="text-accent"> De</span></span>
+          </div>
+          <div class="footer-status">
+            <span class="status-dot"></span>
+            <span class="status-text">Live</span>
+          </div>
+          <p class="footer-copy mt-2 mb-0">All rights reserved © 2026</p>
+        </div>
+  
+        <div class="col-md-4 text-md-center">
+          <h6 class="footer-heading">Quick Links</h6>
+          <ul class="footer-links list-unstyled mb-0">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-4 text-md-end">
+          <h6 class="footer-heading">Follow Me</h6>
+          <div class="footer-social d-flex gap-2 justify-content-md-end">
+            <a href="https://www.facebook.com/share/19K2pGtupf/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://youtube.com/@hm.de617?si=xPbm6GaiAjroiCWQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/benedick-hamor-519367415?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/MiceDe27/MiceDe" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
