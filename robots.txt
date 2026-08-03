@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iammice.vercel.app/sitemap.xml
+Sitemap: https://iammice.online/sitemap.xml
