@@ -41,6 +41,12 @@
   height: auto;
   border-radius: 4px;
 }
+.total-ratings {
+  color: #ff8c00;
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 0.25rem;
+}
 
 @media (max-width: 991.98px) {
   .navbar-collapse {
